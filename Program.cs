@@ -38,8 +38,8 @@
                 {
                     temp = numbers[i - 1]; //store array index value temporary, used to swap with array index which is lower then it.
                     numbers[i - 1] = numbers[i]; //Put i - 1 on the place of the current array index
-                    numbers[i] = temp; //Set the current index as the value of the highest of those two. (Swapping it to rhe right.)
-                    swapped = true; //Set swapped to true, if this value isn't changed the length of array amount of times, the program stoppes and apperantly the array is sorted
+                    numbers[i] = temp; //Set the current index as the value of the highest of those two. (Swapping it to the right.)
+                    swapped = true; 
                 }
             }
         } while (swapped);
