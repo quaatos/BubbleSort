@@ -20,7 +20,7 @@
     /// <algo>
     /// Create a do while loop which loops until variable swapped is false;
     /// Create for loop which loops trough the array, the length of the array amount of times.
-    /// check if the index is greater then index 0;
+    /// check if the index is greater than index 0;
     /// if so, swap those 2;
     /// </algo>
     private static void SortArray(int[] numbers)
